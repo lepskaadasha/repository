@@ -11,25 +11,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="block">
-        <?php 
-            echo 'cookie: Страницу перезагрузили '.$_COOKIE['count'].' раз';
-        ?>
-    </div>
-    <style>
+       <style>
         body {
             width: 100vw;
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-        }
-        .block {
-            border: 1px solid black;
-            padding: 20px;
-            -webkit-box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.75);
-            -moz-box-shadow:    1px 1px 6px 0px rgba(50, 50, 50, 0.75);
-            box-shadow:         1px 1px 6px 0px rgba(50, 50, 50, 0.75);
         }
     </style>
 </body>
